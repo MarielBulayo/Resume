@@ -1,0 +1,224 @@
+body {
+	background-image: url(../img/whiterose.jpg);
+	background-size:cover;
+
+
+}
+
+header{
+	background: #E99fff;
+	padding-top: 0px;
+	min-height: 70%;
+	overflow: hidden;
+	border: #E99fff 3px solid;
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: cursive;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header li:hover{
+	margin:2px;
+	border: 2px outset black;
+	padding: 1.5px;
+}
+
+header li.active a{
+	margin:auto;
+	border: 2px outset red;
+	padding: 0.5px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 20px 0;
+}
+header #link h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+}
+
+.head{
+	font-size: 20px;
+}
+
+
+
+.soc h1{
+	color: green;
+	font-family: monospace;
+	font-size: 50px;
+}
+
+.soc p{
+	color: purple;
+	font-family: mvboli;
+	font-size:25px;
+
+}
+
+footer{
+	color: black;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.contacts h1{
+	color: green;
+	font-family: monospace;
+	font-size: 50px;
+}
+
+.contacts p{
+	color: purple;
+	font-family: mvboli;
+	font-size:25px;
+
+}
+
+
+.best h1{
+	font-family: cursive;
+	font-size: 30px;
+	color:#ffe4e1;
+	text-decoration: none;
+	border: white inset 2px;
+}
+
+.about-me{
+	border: 3px blue solid;
+	padding: 50px;
+	margin: 70px;
+}
+
+.about-me h1{
+	color: green;
+	font-family: monospace;
+	font-size: 50px;
+	
+}
+
+.about-me p{
+	color:purple;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+#personal {
+	border: white solid 2px;
+	font-size: 20px;
+}
+
+.me h3{
+	font-family: courier;
+	font-size: 30px;
+	color:purple;
+}
+
+.me h2{
+	font-family: mvboli;
+	font-size: 50px;
+	color:maroon;
+}
+
+.background h4{
+	font-family: courier;
+	font-size: 30px;
+	color:purple;
+
+}
+
+.me p{
+	font-family: cursive;
+	color: black;
+	border: peachpuff solid 2px;
+	font-size: 30px;
+
+}
+
+.background p{
+	font-family: cursive;
+	color: black;
+	border: peachpuff solid 2px;
+	font-size: 30px;
+
+}
+
+
+
+.act1{
+	display: inline-block;
+
+}
+
+.soc{
+	border: 3px blue solid;
+	padding: 50px;
+	margin: 70px;
+}
+
+.contacts{
+	border: 3px blue solid;
+	padding: 50px;
+	margin: 70px;
+}
+
+.soc a{
+	text-decoration: none;
+	color: purple;
+}
+
+
+.head span{
+	color: firebrick;
+}
+
+.image{
+	margin-right: 20px;
+	margin-left: 20px;
+	position: relative;
+	overflow: hidden;
+	padding: 2px 2px 2px 2px;
+	display: inline-flex;
+	width: 250px;
+	height: 250px;
+	
+}
+
+.ms{
+	position: absolute;
+	width: 100%;
+	background-color: darkgrey;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	cursor: pointer;
+	text-align: center;
+}
+
+.image:hover .ms{
+	bottom: 50px;
+	opacity: 1;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.microsoft a{
+	font-size: 40px;
+	color: black;
+	font-family: sans-serif;
+}
+
+
